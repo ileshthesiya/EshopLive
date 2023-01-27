@@ -3,7 +3,7 @@ const router = express.Router();
 const jwt=require("jsonwebtoken")
 const users = require('../Models/usersModel');
 const bcrypt=require("bcrypt");
-const tokenObj = require('../token/token');
+
 
 router.use(express.json());
 router.use(express.urlencoded({extended:true}));
