@@ -2,7 +2,7 @@ const express = require('express');
 const multer=require("multer");
 const router = express.Router();
 const category = require('../Models/categoryModel');
-const middleware=require("../middleware/middleware");
+
 
 router.use(express.json());
 router.use(express.urlencoded({extended:true}));
